@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("img/img1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.divb{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+ 
+
+}
+.buttons {
+    color: white;
+    border-radius: 20px; 
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    background: linear-gradient(45deg, #808080, #A9A9A9); 
+    height: 60px;
+    width: 150px; 
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in-out; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    cursor: pointer; 
+}
+
+.buttons:hover {
+    background: linear-gradient(45deg, #A9A9A9, #D3D3D3); 
+    transform: scale(1.05); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.buttons:active {
+    background: linear-gradient(45deg, #D3D3D3, #808080); 
+    transform: scale(0.95); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+
